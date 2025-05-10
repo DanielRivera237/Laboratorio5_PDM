@@ -1,4 +1,3 @@
-// 📁 viewmodel/ToDoViewModel.kt
 package com.falconteam.laboratorio5.viewmodel
 
 import androidx.lifecycle.ViewModel
