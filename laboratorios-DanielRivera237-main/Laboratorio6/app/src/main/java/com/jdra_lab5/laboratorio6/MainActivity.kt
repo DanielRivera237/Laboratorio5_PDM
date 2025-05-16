@@ -50,7 +50,6 @@ fun AppContent() {
             Button(
                 onClick = {
                     if (isLoading.value) {
-                        // Si ya está cargando, mostrar mensaje
                         scope.launch {
                             snackbarHostState.showSnackbar("La carga ya está en proceso...")
                         }
